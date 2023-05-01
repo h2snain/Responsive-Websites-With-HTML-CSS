@@ -1,0 +1,35 @@
+body {
+	border: 5px solid black;
+	font-family: sans-serif;
+	line-height: 1.4;
+}
+
+h2 {
+	background-color: #f7f7f7;
+	text-align: center;
+}
+
+.price {
+	font-weight: bold;
+	font-size: 24px;
+}
+.shipping {
+	font-size: 12px;
+	color: #777;
+}
+a {
+	color: black;
+}
+a:hover {
+	text-decoration: none;
+}
+.add-cart {
+	background-color: black;
+	color: white;
+	font-size: 20px;
+}
+button:hover {
+	background-color: white;
+	color: black;
+	border: none;
+}
