@@ -111,6 +111,12 @@ li:last-child {
 	color: red;
 } */
 
-article p:last-child {
+/* Misconception this won't work */
+article p:first-child {
 	color: red;
+}
+
+/* Styling Links with pseudo class of anchor element */
+a:link {
+	color: #1098ad;
 }
