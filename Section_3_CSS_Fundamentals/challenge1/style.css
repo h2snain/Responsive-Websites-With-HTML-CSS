@@ -13,6 +13,7 @@ body {
 	border: 5px solid black;
 	width: 825px;
 	margin: 50px auto;
+	position: relative;
 }
 
 /* Product title */
@@ -34,6 +35,21 @@ body {
 	font-weight: bold;
 	color: #777;
 	margin-bottom: 20px;
+}
+
+/* Sale Tag*/
+.sale {
+	background-color: #ec2f2f;
+	color: #fff;
+	font-size: 12px;
+	text-transform: uppercase;
+	font-weight: bold;
+	padding: 7px 15px;
+	display: inline-block;
+	position: absolute;
+	top: -17px;
+	left: -34px;
+	letter-spacing: 2px;
 }
 /* Link */
 .more-info:link,
@@ -58,6 +74,58 @@ body {
 	margin-left: 20px;
 	/* margin-bottom: 10px; */
 }
+
+/* Color in div */
+.color {
+	display: block;
+	/* height: 22px;
+	width: 22px;
+	margin-right: 10px; */
+	margin-top: 30px;
+}
+.color-black {
+	background-color: #000;
+	height: 22px;
+	width: 22px;
+	margin-right: 10px;
+	display: inline-block;
+}
+.color-blue {
+	background-color: #0000ff;
+	height: 22px;
+	width: 22px;
+	margin-right: 10px;
+	display: inline-block;
+}
+.color-red {
+	background-color: #ff0000;
+	height: 22px;
+	width: 22px;
+	margin-right: 10px;
+	display: inline-block;
+}
+.color-yellow {
+	background-color: #ffff00;
+	height: 22px;
+	width: 22px;
+	margin-right: 10px;
+	display: inline-block;
+}
+.color-green {
+	background-color: #008000;
+	height: 22px;
+	width: 22px;
+	margin-right: 10px;
+	display: inline-block;
+}
+.color-brown {
+	background-color: #885214;
+	height: 22px;
+	width: 22px;
+	margin-right: 0;
+	display: inline-block;
+}
+
 .details-list li {
 	margin-bottom: 10px;
 	font-size: 16px;
